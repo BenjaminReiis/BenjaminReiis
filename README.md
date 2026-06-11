@@ -89,12 +89,12 @@
 
 <img
 height="180em"
-src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"
+src="https://github-readme-stats.vercel.app/api?username=BenjaminReiis&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"
 />
 
 <img
 height="180em"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=tokyonight&langs_count=10"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=BenjaminReiis&layout=compact&theme=tokyonight&langs_count=10"
 />
 
 </p>
@@ -102,8 +102,6 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&
 ---
 
 ## 🎯 Objetivos
-
-🇺🇸 Inglês Fluente
 
 ☁️ Certificação AWS
 
@@ -117,11 +115,11 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&
 
 ## 📫 Contato
 
-💼 LinkedIn
+💼 LinkedIn:
+https://www.linkedin.com/in/benjamin-dos-reis-5aa7ab366/
 
-📧 Email
-
-💻 GitHub
+📧 E-mail:
+reisamorinn@gmail.com
 
 ---
 
