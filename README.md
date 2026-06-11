@@ -46,17 +46,6 @@
 
 ---
 
-## 🏦 Especialidades
-
-- 💳 APIs REST Bancárias
-- 🔐 JWT Authentication
-- 🏧 Sistemas Financeiros
-- ☁️ Cloud Computing
-- 🚀 Microsserviços
-- 🐳 Docker & Kubernetes
-- 📊 Banco de Dados SQL e NoSQL
-- ⚡ Arquiteturas Escaláveis
-
 ## 📈 Estatísticas
 
 <p align="center">
@@ -74,6 +63,17 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=BenjaminReii
 </p>
 
 ---
+
+## 🏦 Especialidades
+
+- 💳 APIs REST Bancárias
+- 🔐 JWT Authentication
+- 🏧 Sistemas Financeiros
+- ☁️ Cloud Computing
+- 🚀 Microsserviços
+- 🐳 Docker & Kubernetes
+- 📊 Banco de Dados SQL e NoSQL
+- ⚡ Arquiteturas Escaláveis
 
 ## 📫 Contato
 
