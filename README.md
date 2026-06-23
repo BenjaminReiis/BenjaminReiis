@@ -70,24 +70,6 @@ const benjamin = {
 
 ---
 
-## 🏆 Troféus
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=BenjaminReiis&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" alt="Troféus GitHub"/>
-</div>
-
----
-
-## 🐍 Contribuições (Snake)
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/BenjaminReiis/BenjaminReiis/output/github-contribution-grid-snake-dark.svg" alt="Snake de contribuições"/>
-</div>
-
-> 💡 Esse gráfico de cobra precisa de um pequeno passo extra de configuração — explico como ativar mais abaixo.
-
----
-
 <div align="center">
 
 ### 📫 Vamos conversar?
