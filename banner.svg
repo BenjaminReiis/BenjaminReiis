@@ -1,0 +1,83 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="50%" stop-color="#0a1626"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#0077ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="220" fill="url(#bgGrad)"/>
+
+  <!-- rain lines -->
+  <g stroke="#1e3a5f" stroke-width="1" opacity="0.35">
+    <line x1="60" y1="0" x2="40" y2="220"/>
+    <line x1="140" y1="0" x2="120" y2="220"/>
+    <line x1="220" y1="0" x2="200" y2="220"/>
+    <line x1="780" y1="0" x2="760" y2="220"/>
+    <line x1="860" y1="0" x2="840" y2="220"/>
+    <line x1="940" y1="0" x2="920" y2="220"/>
+  </g>
+
+  <!-- grid floor lines -->
+  <g stroke="#123" stroke-opacity="0.4">
+    <line x1="0" y1="200" x2="1000" y2="200"/>
+    <line x1="0" y1="210" x2="1000" y2="210"/>
+  </g>
+
+  <!-- city silhouette -->
+  <g fill="#0f2236" opacity="0.8">
+    <rect x="0" y="120" width="40" height="100"/>
+    <rect x="50" y="90" width="30" height="130"/>
+    <rect x="900" y="80" width="35" height="140"/>
+    <rect x="945" y="110" width="40" height="110"/>
+    <rect x="850" y="60" width="25" height="160"/>
+  </g>
+  <g fill="#1c3b5a" opacity="0.5">
+    <rect x="5" y="150" width="6" height="6"/>
+    <rect x="15" y="160" width="6" height="6"/>
+    <rect x="60" y="110" width="6" height="6"/>
+    <rect x="910" y="100" width="6" height="6"/>
+    <rect x="955" y="130" width="6" height="6"/>
+  </g>
+
+  <!-- title -->
+  <text x="500" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="700"
+        text-anchor="middle" fill="#eafcff" filter="url(#glow)" letter-spacing="2">
+    Benjamin dos Reis
+  </text>
+
+  <!-- animated typing subtitle -->
+  <text x="500" y="135" font-family="'Courier New', monospace" font-size="20"
+        text-anchor="middle" fill="#00e5ff" filter="url(#glow)">
+    &gt; Java · Spring Boot · Node.js · TypeScript · Go
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- underline bar -->
+  <rect x="300" y="155" width="400" height="3" fill="url(#neonBlue)" filter="url(#glow)">
+    <animate attributeName="width" values="0;400;400" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- small status line, like the bus display -->
+  <text x="500" y="185" font-family="'Courier New', monospace" font-size="13"
+        text-anchor="middle" fill="#7fdfff" opacity="0.85">
+    DESTINO: BACKEND &amp; CLOUD · STATUS: ONLINE
+  </text>
+
+  <!-- pulsing dot -->
+  <circle cx="330" cy="181" r="4" fill="#00ff9d">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
